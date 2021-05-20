@@ -1,72 +1,77 @@
-// Comentario de Linha
+/* Exercicio 01
 
-/* Comentario de Bloco */
-/*de codigo
-linha de codigo
-linha de codigo
-linha de*/ 
+resposta: 10 e 5 
 
-// console.log(" Olá Mundo ! ")
-// console.log("Turma Jonhson")
+ Exercicio 02
 
-// const Boooora = prompt ("Vamos nessa ?") 
+resposta: 10 , 10 , 10
 
-// console.log("Boooora")
+Exercicio 03
 
-// variaveis const
-//const novaVariavel = 23 // apareceu check
+resposta: quantidade , valor*/
 
-//novaVariavel = 24 // isso da erro
+// Exercicios de Escrita de Codigo
+// 01
 
-//console.log (novaVariavel) // nao aparece
+// let nome 
+// let idade
 
-// variaveis let
+// console.log (typeof nome)
+// console.log (typeof idade)
 
-// variaveis let
+//Se for com variaveis const sempre terao de ser declaradas. 
 
-// let novaVariavel = 24
+/*const nome = prompt("Qual o seu nome ?" )
+const idade = prompt("Qual a sua idade ?")
 
-// //console.log (novaVariavel) // apareceu check
+console.log (typeof nome)
+console.log (typeof idade)
 
-// const novaVariavel = 23
+// A caixa do Prompt sempre devolve uma String*/
 
-// console.log com varios argumentos
+const nome = "Mateus"
+const idade = 28
 
-// const nome = "Mateus"
-// const idade = 28
+console.log ("Olá" , nome,",voce tem", idade, "anos.")
+console.log (typeof nome)
+console.log (typeof idade)
 
-// console.log("Meu nome é" nome "eu tenho" idade "anos")
+// Exercicio 02
 
-// Exercicio 1
-// const nome = "Mateus"
-// const sobrenome = "Rodrigues"
-// let idade = null
-// const checkEstudante = false
+const carros = prompt ("É verdade que voce gosta de carros ?")
+const motos = prompt("Voce gosta de motos ?")
+const avioes = prompt("Gosta de avioes ?")
 
-// console.log("Meu nome é", nome, sobrenome, ", eu tenho", idade, "anos.", "Status de estudante:", checkEstudante)
-// console.log(typeof nome)
-// console.log(typeof idade)
-// console.log(typeof checkEstudante)
+console.log (typeof carros)
+console.log (typeof motos)
+console.log (typeof avioes)
 
-// Exercicio 2
+console.log ("É verdade que voce gosta de carros ?" ,carros)
+console.log ("Voce gosta de motos ?" ,motos)
+console.log ("Gosta de avioes ?" ,avioes)
 
-// const nome = prompt("Qual o seu nome ?")
-// const idade = prompt("Qual a sua idade ?")
+// Exercicio 03 
 
-// console.log(typeof nome)
-// console.log(typeof idade)
+let a = 10
+let b = 25
+let c
+c = a
+a = b 
+a = c
 
-// const numeroAleatorio = 07
-// console.log(typeof numeroAleatorio)
-// console.log(typeof numeroAleatorio)
+console.log(a, b, c)
 
-// const numeroAleatorioEmTexto = numeroAleatorio.toString()
-// console.log(numeroAleatorioEmTexto)
-// console.log(typeof numeroAleatorioEmTexto)
+console.log("Valor de a:" ,a,"Valor de b:" ,b)
+console.log("O novo valor de a é:", b) // O novo valor de a é 25
+console.log("O novo valor de b é:", a) // O novo valor de b é 10
 
-const nome = prompt("Qual o seu nome ?")
-const idade = Number ("Qual a sua idade ?")
+// Desafio
 
-console.log(typeof nome)
-console.log(typeof idade)
+let numero1 = Number (prompt ("Insira um numero"))
+let numero2 = Number (prompt ("Insira um numero"))
+
+console.log ("O resultado dos numeros somados sao:", numero1 + numero2)
+
+
+
 
