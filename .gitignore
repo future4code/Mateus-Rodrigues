@@ -105,4 +105,4 @@ build/
 .tern-port
 
 #DS.Store filed
-.DS_Store
+*/.DS_Store
