@@ -43,7 +43,8 @@ function retornaMaiorNumero(array) {
 
 // EXERCÍCIO 05
 function retornaQuantidadeElementos(array) {
-  
+  for (let i = 0; i <= array.length; i++) 
+  return array.length
 }
 
 // EXERCÍCIO 06
