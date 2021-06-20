@@ -31,7 +31,7 @@ function retornaNumerosPares(array) {
 
 // EXERCÍCIO 04
 function retornaMaiorNumero(array) {
-
+  
 }
 
 // EXERCÍCIO 05
