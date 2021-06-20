@@ -23,7 +23,10 @@ function retornaNumerosParesElevadosADois(array) {
 
 // EXERCÍCIO 03
 function retornaNumerosPares(array) {
-
+  const numberPar = array.filter(valor => {
+    return valor % 2 === 0
+  })
+  return numberPar
 }
 
 // EXERCÍCIO 04
