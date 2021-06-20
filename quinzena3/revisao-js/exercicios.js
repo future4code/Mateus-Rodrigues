@@ -9,7 +9,16 @@ return invertArray
 
 // EXERCÍCIO 02
 function retornaNumerosParesElevadosADois(array) {
+  const numPares = array.filter((valor) => {
+    return valor % 2 === 0
+  })
+  const numElevados = numPares.map((valor) => {
+    if (valor % 2 === 0) {
+      return valor * valor
+    }
+  })
 
+  return numElevados
 }
 
 // EXERCÍCIO 03
