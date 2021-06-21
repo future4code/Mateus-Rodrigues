@@ -206,33 +206,43 @@ function multiplicaArrayPor2(array) {
 
 // EXERCÍCIO 17B
 function multiplicaArrayPor2S(array) {
-  const resultado = multiplicaArrayPor2(array)
-  const resultado2 = resultado.map((input) => {
+  const result1 = multiplicaArrayPor2(array)
+  const result2 = result1.map((input) => {
     return input.toString()
   })
-  return resultado2
+  return result2
 }
 
 // EXERCÍCIO 17C
 function verificaParidade(array) {
-  const resultado = array.map((input)=>{
+  const result = array.map((input)=>{
     if (input%2===0){
       return `${input} é par`
     } else {
       return `${input} é ímpar`
     }
   })
-  return resultado
+  return result
 }
 
 // EXERCÍCIO 18A
 function retornaPessoasAutorizadas(pessoas) {
-
+  const filterPessoas1 = pessoas.filter((input)=>{
+    if ((input.altura>=1.5)&&(input.idade>14)&&(input.idade<60)){
+      return input
+    }
+  })
+  return filterPessoas1
 }
 
 // EXERCÍCIO 18B
 function retornaPessoasNaoAutorizadas(pessoas) {
-
+  const filterPessoas = pessoas.filter((input) => {
+    if (!((input.altura >= 1.5) && (input.idade > 14) && (input.idade < 60))) {
+      return input
+    }
+  })
+  return filterPessoas
 }
 
 // EXERCÍCIO 19A
