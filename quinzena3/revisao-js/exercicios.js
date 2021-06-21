@@ -157,7 +157,10 @@ function filmeFavorito() {
 // EXERCÍCIO 13
 function imprimeChamada() {
   // "Venha assistir ao filme NOME_DO_FILME, de ANO, dirigido por DIRECAO e estrelado por ELENCO."
+  const chamadaFavorito = filmeFavorito()
+  return (`Venha assistir ao filme ${chamadaFavorito.nome}, de ${chamadaFavorito.ano}, dirigido por ${chamadaFavorito.diretor} e estrelado por ${chamadaFavorito.atores.join(', ')}.`)
 }
+
 
 // EXERCÍCIO 14
 function criaRetangulo(lado1, lado2) {
