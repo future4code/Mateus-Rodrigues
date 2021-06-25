@@ -1,0 +1,46 @@
+/* body {
+    background-image: url(../sistema-loja/img/logo.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+} */
+a {
+    color: black;
+    background-color: DarkTurquoise;
+    padding-left: 70px;
+    padding-right: 70PX;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: solid 1px black;
+    text-decoration: none;
+}
+
+a:hover {
+    background: rgba(0, 0, 0, 0.10);
+}
+h1 {
+    border: solid 4px black;
+    background-color: rgb(193, 188, 187);
+    
+}
+
+h2 {
+    border: solid 1px;
+    background-color: rgb(193, 188, 187);
+}
+
+img {
+    padding: 120px;
+}
+
+
+th {
+    padding-right: 180px;
+}
+
+li {
+    padding-bottom: 50px;
+}
+
+div {
+    padding-top: 50px;
+}
